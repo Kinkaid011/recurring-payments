@@ -35,7 +35,7 @@ p {
 }
 
 .hero-section {
-  height: 600px;
+  height: 700px;
   width: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
