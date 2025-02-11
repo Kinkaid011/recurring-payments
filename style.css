@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+}
+
+main {
+  margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  color: #3e4667;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.hero-section {
+  height: 600px;
+  width: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+  color: #2e2e2e;
+}
+
+.hero-copy {
+  width: 495px;
+  display: inline;
+  justify-self: end;
+  align-self: center;
+}
+
+.hero-section h1 {
+  margin: 0;
+  color: #3e4667;
+}
+
+.section {
+  display: grid;
+  max-width: 1000px;
+  margin: 75px auto 75px auto;
+  padding: 0 16px;
+  grid-template-columns: 1fr;
+
+  line-height: 1.75rem;
+}
+
+.overview {
+  background-color: #fffae8;
+  padding: 25px;
+}
+
+.interview-questions {
+  margin: auto;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.question {
+  height: 500px;
+  width: 100%;
+  justify-self: center;
+}
+
+.persona img {
+  display: block;
+  margin-top: 1.5rem;
+  height: auto;
+  width: 100%;
+}
+
+.journey-map img {
+  width: 100%;
+  height: auto;
+  margin-top: 3rem;
+}
+
+.mockups h2 {
+  margin-bottom: 50px;
+}
+
+.wireframes h2 {
+  margin-bottom: 50px;
+}
+
+.wireframes img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+
+.showcase {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
+.mockups h2 {
+  margin-top: 0;
+}
+
+.mockups {
+  background-color: #fffae8;
+  padding: 25px 0 25px 0;
+}
+
+.screens {
+  margin: auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.screen {
+  height: auto;
+  width: 100%;
+}
