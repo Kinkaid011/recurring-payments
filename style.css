@@ -141,3 +141,32 @@ p {
   height: auto;
   width: 100%;
 }
+
+
+@media (max-width: 768px) {
+
+  .hero-section {
+    height: 650px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    justify-content: center;
+    align-content: center;
+    color: #2e2e2e;
+  }
+  
+  .hero-copy {
+    width: 100%;
+    display: inline;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .overview {
+    background-color: #fffae8;
+    padding: 15px 0;
+  }
+
+}
