@@ -164,6 +164,11 @@ p {
     align-self: center;
   }
 
+  .hero-section img {
+    width: 100%;
+    height: auto;
+  }
+
   .overview {
     background-color: #fffae8;
     padding: 15px 0;
